@@ -1,0 +1,188 @@
+// 修改富文本编辑器的样式
+.rich-text{
+  border-right:1px solid rgba(204,204,204,0.4);
+  .ql-toolbar.ql-snow{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    border:1px solid rgba(204,204,204,0.4);
+    border-left: 0;
+    border-right: 0;
+    background: #fff;
+    z-index: 1;
+    padding-right: 130px;
+  }
+  .ql-container{
+    overflow-y: auto;
+    padding: 0 50px;
+    &.ql-snow{
+      border:0;
+      .ql-editor{
+        overflow-y: initial;
+        img{
+          width: auto;
+        }
+      }
+    }
+  }
+  .ql-snow .ql-tooltip{
+    left:10px!important;
+  }
+  .ql-container .ql-editor.ql-blank::before{
+    text-indent: 50px;
+  }
+}
+// 设置字体
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=SimSun]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=SimSun]::before {
+  content: "宋体";
+  font-family: "SimSun";
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=SimHei]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=SimHei]::before {
+  content: "黑体";
+  font-family: "SimHei";
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=Microsoft-YaHei]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=Microsoft-YaHei]::before {
+  content: "微软雅黑";
+  font-family: "Microsoft YaHei";
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=KaiTi]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=KaiTi]::before {
+  content: "楷体";
+  font-family: "KaiTi";
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=FangSong]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=FangSong]::before {
+  content: "仿宋";
+  font-family: "FangSong";
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=Arial]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=Arial]::before {
+  content: "Arial";
+  font-family: "Arial";
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=Times-New-Roman]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=Times-New-Roman]::before {
+  content: "Times New Roman";
+  font-family: "Times New Roman";
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=sans-serif]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=sans-serif]::before {
+  content: "sans-serif";
+  font-family: "sans-serif";
+}
+
+.ql-font-SimSun {
+  font-family: "SimSun";
+}
+.ql-font-SimHei {
+  font-family: "SimHei";
+}
+.ql-font-Microsoft-YaHei {
+  font-family: "Microsoft YaHei";
+}
+.ql-font-KaiTi {
+  font-family: "KaiTi";
+}
+.ql-font-FangSong {
+  font-family: "FangSong";
+}
+.ql-font-Arial {
+  font-family: "Arial";
+}
+.ql-font-Times-New-Roman {
+  font-family: "Times New Roman";
+}
+.ql-font-sans-serif {
+  font-family: "sans-serif";
+}
+
+.ql-container .ql-editor.ql-blank::before {
+  font-style: normal
+}
+.quill-editor .ql-snow .ql-picker.ql-font{
+  width:92px;
+}
+/**设置默认字体显示**/
+/*设置字号大小*/
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='12px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='12px']::before {
+  content: '12px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='14px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='14px']::before {
+  content: '14px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='16px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='16px']::before {
+  content: '16px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='18px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='18px']::before {
+  content: '18px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='20px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='20px']::before {
+  content: '20px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='22px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='22px']::before {
+  content: '22px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='24px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='24px']::before {
+  content: '24px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='26px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='26px']::before {
+  content: '26px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='28px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='28px']::before {
+  content: '28px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='30px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='30px']::before {
+  content: '30px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='32px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='32px']::before {
+  content: '32px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='36px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='36px']::before {
+  content: '36px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='38px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='38px']::before {
+  content: '38px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='40px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='40px']::before {
+  content: '40px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='45px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='45px']::before {
+  content: '45px';
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label[data-value='50px']::before, .ql-snow .ql-picker.ql-size .ql-picker-item[data-value='50px']::before {
+  content: '50px';
+}
+.rich-text .ql-container{
+  font-size:14px;
+}
+.rich-text .ql-snow .ql-picker.ql-size .ql-picker-label::before, .ql-snow .ql-picker.ql-size .ql-picker-item::before {
+  content: '14px';
+}
+.rich-text .ql-snow .ql-picker.ql-size{width: 60px;}
+/*设置字号大小*/
+/*标题大小设置*/
+.rich-text .ql-snow .ql-picker.ql-header .ql-picker-label::before,
+.rich-text .ql-snow .ql-picker.ql-header .ql-picker-item::before {
+  content: "标题设置";
+}
+.rich-text .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="1"]::before,
+.rich-text .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="1"]::before {
+  content: "一级标题";
+}
+.rich-text .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="2"]::before,
+.rich-text .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="2"]::before {
+  content: "二级标题";
+}
+.rich-text .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="3"]::before,
+.rich-text .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="3"]::before {
+  content: "三级标题";
+}
+.rich-text .ql-snow .ql-picker.ql-header .ql-picker-label[data-value="4"]::before,
+.rich-text .ql-snow .ql-picker.ql-header .ql-picker-item[data-value="4"]::before {
+  content: "四级标题";
+}
+/*标题大小设置*/

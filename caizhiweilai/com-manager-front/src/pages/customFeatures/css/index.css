@@ -1,0 +1,111 @@
+
+.costomized{
+  width:100%;
+  height:auto;
+  overflow: hidden;
+  font-size: 14px;
+  background:#fff;
+}
+ /* 标题 */
+.costomized .costomized-title{
+  width:100%;
+  height:auto;
+  overflow: hidden;
+}
+.costomized .costomized-title h4{
+  color:#414D65;
+  font-weight:normal;
+}
+/* 中间内容区 */
+.costomized .costomized-content{
+  display: flex;
+}
+/* 右侧内容 */
+.costomized .costomized-main{
+  flex:1;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  box-sizing: border-box;
+  padding:30px 28px;
+}
+/* 左侧导航 */
+.costomized .costomized-bar{
+  width:280px;
+  height:auto;
+  overflow: hidden;
+}
+
+/* 表格 */
+.table .el-table{
+  border-collapse:collapse;
+  border-spacing:1;
+  border-spacing:0;
+}
+.table .el-table th{
+  background:#E5EAF4;
+}
+
+.fl{
+  float:left;
+}
+.fr{
+  float: right;
+}
+.clearfloat{
+  width:100%;
+  height: auto;
+  overflow: auto;
+}
+/* 右侧按钮 */
+.exam .examBtn{
+  margin: 20px 0;
+}
+/* 右侧按钮 */
+.exam .examBtn .addExam{
+  width:142px;
+  height:32px;
+  display: block;
+  background: #414D65;
+  color:#fff;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 3px;
+  cursor: pointer;
+  float: right;
+}
+
+.dialog-foot{
+  text-align: right;
+  padding:10px 0;
+}
+.dialog-foot span{
+  cursor: pointer;
+  border-radius:3px;
+  padding:6px 30px;
+}
+.dialog-foot span.confirm{
+  background:#414D65;
+  color:#fff;
+  border:1px solid #414D65;
+}
+.dialog-foot span.confirm{
+  background:#414D65;
+  color:#fff;
+  border:1px solid #414D65;
+  margin-left: 20px;
+}
+
+.dialog-foot span.cancel{
+  border:1px solid #DDDDDD;
+}
+.customFeatures-title h5{
+  font-weight:normal;
+  color:#414D65;
+  font-size:16px;
+}
+
+.tableLink{
+  text-align: right;
+}
+.tableLink .el-link.el-link--warning{
+    margin-left:20px;
+}

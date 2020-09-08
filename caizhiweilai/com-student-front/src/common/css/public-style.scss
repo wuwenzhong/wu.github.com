@@ -1,0 +1,24 @@
+.base-table{
+  width:1120px;
+  background:#fff;
+  border-collapse: collapse;
+  text-align: center;
+  thead{
+    border-left: 1px #EDEDED solid;
+    border-right: 1px #EDEDED solid;
+    background: #FAFCFE;
+  }
+  td,th{
+    border:1px solid #EDEDED;
+    // padding:10px;
+    line-height:68px;
+  }
+  th{
+    font-size:14px;
+    color:#333;
+  }
+  td{
+    font-size:12px;
+    color:#595959;
+  }
+}

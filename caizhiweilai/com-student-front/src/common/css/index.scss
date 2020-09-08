@@ -1,0 +1,79 @@
+@import './transition.scss';
+@import './sidebar.scss';
+@import './public-style.scss';
+@import './element-variables.scss';
+@import './element-rewrite.scss';
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input,
+textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:14px/1.5 tahoma,\5FAE\8F6F\96C5\9ED1,\4EFF\5B8B_GB2312,
+\4EFF\5B8B,\9ED1\4F53,\82F9\679C\4E3D\4E2D\9ED1; }
+
+a {
+  text-decoration: none;
+}
+
+body, html {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Microsoft YaHei, NSimSun, DFKai-SB, FangSong, SimHei, Helvetica, Arial, sans-serif;
+}
+
+input, textarea{
+  font-family: Microsoft YaHei, NSimSun, DFKai-SB, FangSong, SimHei, Helvetica, Arial, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.padding-content {
+  padding: 4px 0;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+a, a:focus, a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+//app-container全局样式
+.app-container {
+  background-color: #fff;
+  width: 100%;
+}
+ol,ul, li {
+  list-style: none;
+}
+address, caption,cite,code,dfn{
+  font-style: normal;
+  font-weight: normal;
+}
+input {
+  outline: none;
+}
+stextarea,select, button {
+  outline: none;
+  cursor: pointer;
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+}

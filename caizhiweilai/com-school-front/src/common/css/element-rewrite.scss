@@ -1,0 +1,66 @@
+@charset "utf-8";
+// 用于覆盖element-ui本身的公共样式
+
+// 表格表头
+.el-table .el-table__header-wrapper th {
+	word-break: break-word;
+	background-color: #fafcfe;
+	color: #333;
+	height: 60px;
+	font-size: 13px;
+}
+
+.el-dropdown-menu{
+  .el-dropdown-menu__item:not(.is-disabled):hover, .el-dropdown-menu__item:focus{
+    background-color: #ebfaf6;
+    color: #5ed8ba;
+  }
+}
+
+// 表格多选框颜色
+.el-checkbox__input.is-checked .el-checkbox__inner{
+	background-color:#5ed8ba;
+	border-color: #5ed8ba;
+}
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color:#5ed8ba;
+	border-color: #5ed8ba;
+}
+// 提示框按钮居中
+.el-message-box__btns {
+  text-align: center;
+}
+.preview-box {
+  .ql-container.ql-snow{
+    border:0;
+  }
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+}
+// 修改二次确认弹窗样式
+.el-message-box__wrapper {
+  .el-message-box {
+    padding-bottom: 20px;
+    word-break: break-all;
+  }
+
+  .el-message-box__btns {
+    padding-top: 10px;
+  }
+}
+// 小弹框样式
+.el-dialog__wrapper.common-small{
+  .el-dialog{
+    width: 520px;
+    min-height: 340px;
+    max-height: 680px;
+    border-radius: 4px;
+    .el-dialog__body{
+      min-height: 286px;
+      max-height: 626px;
+      padding: 30px 20px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+// 通用css样式布局处理
+
+.mt8 {
+	margin-top: 8px;
+}
+.mb16 {
+	margin-bottom: 16px;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+.mb24 {
+	margin-bottom: 24px;
+}
+
+.mr15 {
+	margin-right: 15px;
+}
+
+.fr {
+	float: right;
+}
+
+// icon修改
+.icon-other {
+	background: #FF9D6A;
+	border-color: #FF9D6A;
+	color: #fff;
+	&:active {
+		background: #FFBC7D;
+		border-color: #FFBC7D;
+		color: #fff;
+	}
+	&:hover {
+		background: #FFBC7D;
+		border-color: #FFBC7D;
+		color: #fff;
+	}
+}

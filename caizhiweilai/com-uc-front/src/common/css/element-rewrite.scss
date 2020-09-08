@@ -1,0 +1,36 @@
+@charset "utf-8";
+// 用于覆盖element-ui本身的公共样式
+
+// 表格表头
+.el-table .el-table__header-wrapper th {
+	word-break: break-word;
+	background-color: #fafcfe;
+	color: #333;
+	height: 60px;
+	font-size: 13px;
+}
+.el-message-box__btns{
+	text-align: center;
+}
+.el-message-box__btns button:nth-child(2){
+	background: #414D65;
+}
+.el-button--primary{
+	border:1px solid #414D65;
+}
+
+.preview-box{
+  &.ql-container.ql-snow{
+    border:0;
+  }
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+  .el-scrollbar__wrap{
+    overflow-x: hidden;
+  }
+}
+::-webkit-scrollbar {
+  width: 0px;
+}

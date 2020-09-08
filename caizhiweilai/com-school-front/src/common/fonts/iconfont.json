@@ -1,0 +1,93 @@
+{
+  "id": "1831447",
+  "name": "财智教务端",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "只用于教务端",
+  "glyphs": [
+    {
+      "icon_id": "2798019",
+      "name": "当前项",
+      "font_class": "iconNow",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "14397459",
+      "name": "帮助文档",
+      "font_class": "bangzhuwendang",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "5916440",
+      "name": "ZIP",
+      "font_class": "ZIP",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "5925272",
+      "name": "学生管理",
+      "font_class": "xueshengguanli",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "741973",
+      "name": "择律-公用-用户中心z003",
+      "font_class": "yhzx1",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "797101",
+      "name": "用户中心",
+      "font_class": "yhzx",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "2030019",
+      "name": "退出",
+      "font_class": "tc",
+      "unicode": "e819",
+      "unicode_decimal": 59417
+    },
+    {
+      "icon_id": "6856906",
+      "name": "基本信息",
+      "font_class": "jbxx",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "11445274",
+      "name": "课程管理",
+      "font_class": "ygkc",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "15042768",
+      "name": "退出",
+      "font_class": "tc-copy",
+      "unicode": "e81a",
+      "unicode_decimal": 59418
+    },
+    {
+      "icon_id": "7921801",
+      "name": "教师管理",
+      "font_class": "jsgl",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "905458",
+      "name": "首页",
+      "font_class": "sy",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    }
+  ]
+}

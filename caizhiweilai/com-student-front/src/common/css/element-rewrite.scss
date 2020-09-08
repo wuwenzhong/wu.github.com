@@ -1,0 +1,106 @@
+@charset "utf-8";
+// 用于覆盖element-ui本身的公共样式
+
+// 表格表头
+.el-table .el-table__header-wrapper th {
+	word-break: break-word;
+	background-color: #fafcfe;
+	color: #333;
+	height: 60px;
+	font-size: 13px;
+}
+
+// 按钮
+.el-button--small {
+	padding: 9px 20px;
+}
+
+.el-button--medium {
+	// padding: 10px 30px;
+	width: 95px;
+	height: 36px;
+	font-size: 14px;
+	text-align: center;
+}
+
+// 对话框
+.el-dialog {
+	margin: 0 auto;
+	border-radius: 20px;
+	position: relative;
+	z-index: 999;
+	.el-dialog__header {
+		padding: 15px;
+		border-bottom: 1px solid #F3F4F5;
+		.el-dialog__title {
+			line-height: 18px;
+			color: #444;
+		}
+		.el-dialog__headerbtn {
+			top: 15px;
+			right: 15px;
+		}
+	}
+	.el-dialog__body {
+		padding: 15px 22px;
+		.el-form-item {
+			.el-form-item__label {
+				font-size: 12px;
+			}
+			.el-input__inner {
+				height: 38.4px;
+			}
+		}
+	}
+	.el-dialog__footer {
+		.dialog-footer {
+			text-align: center;
+		}
+	}
+}
+
+.teaching-tool{
+  margin-right:20px;
+  .el-dropdown-link{
+    line-height: 70px;
+    padding: 25px 0 25px 50px;
+    cursor: pointer;
+    color:#fff;
+    background-image: url("../../common/images/tool-icon.png");
+    background-repeat: no-repeat;
+    background-size: 31px 23px;
+    background-position: 10px 24px;
+  }
+}
+// 提示框按钮居中
+.el-message-box__btns {
+  text-align: center;
+}
+// 红旗榜修改element样式
+.scroll-box{
+  .el-scrollbar__wrap{
+    overflow-x: hidden;
+  }
+}
+.preview-box{
+  &.ql-container.ql-snow{
+    border:0;
+  }
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+  .el-scrollbar__wrap{
+    overflow-x: hidden;
+  }
+}
+.el-message-box{
+	position: relative;
+	z-index: 9999;
+}
+.v-modal{
+	z-index: 100 !important;
+}
+.el-dialog__wrapper{
+	z-index: 2000 !important;
+}

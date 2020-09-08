@@ -1,0 +1,42 @@
+// 布局规范
+$width-min: 1280px;
+$width-sidebar: 180px;
+$width-content-max: 1256px;
+
+// 字体定义规范
+$font-size-extra-small: 12px;
+$font-size-small: 13px;
+$font-size-base: 14px;
+$font-size-medium: 16px;
+$font-size-large: 18px;
+$font-size-extra-large: 20px;
+
+// 颜色定义规范
+$color-theme: #36CEA9;
+$color-success-info: #6ed23c;
+$color-warning-info: #ffb41f;
+$color-error-info: #ff5557;
+$color-black: #1f1f1f;
+$color-text-d: #303133;
+$color-text-l: #606266;
+$color-text-ll: #909398;
+$color-background-base: #f7f7f7;
+
+// sidebar
+$color-menu-text: #fff;
+$color-menu-active-text: #fff;
+
+$color-menu-back: #36CEA9;
+$color-menu-active-back: #96D6C7;
+$color-menu-hover: #96D6C7;
+
+$sideBarWidth: 250px;
+
+
+// :export {
+//   colorMenuText: $color-menu-text;
+//   colorMenuActiveText: $color-menu-active-text;
+//   colorMenuBack: $color-menu-back;
+//   colorMenuHover: $color-menu-hover;
+//   sideBarWidth: $sideBarWidth;
+// }

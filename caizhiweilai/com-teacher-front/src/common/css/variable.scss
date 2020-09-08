@@ -1,0 +1,59 @@
+// 布局规范
+$width-min: 1280px;
+$width-sidebar: 180px;
+$width-content-max: 1256px; // 字体定义规范
+$font-size-extra-small: 12px;
+$font-size-small: 13px;
+$font-size-base: 14px;
+$font-size-medium: 16px;
+$font-size-large: 18px;
+$font-size-extra-large: 20px; // 颜色定义规范
+$color-theme: #36CEA9;
+$color-success-info: #6ed23c;
+$color-warning-info: #ffb41f;
+$color-error-info: #ff5557;
+$color-black: #1f1f1f;
+$color-text-d: #303133;
+$color-text-l: #606266;
+$color-text-ll: #909398;
+$color-background-base: #f7f7f7; // 鼠标移入主题色变色
+$color-theme-hover: #00BA8C; // sidebar
+$color-menu-text: #fff;
+$color-menu-active-text: #fff;
+$color-menu-back: #36CEA9;
+$color-menu-active-back: #96D6C7;
+$color-menu-hover: #96D6C7;
+$sideBarWidth: 250px;
+$base-color: #36CEA9;
+
+%display-flex {
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -moz-box;
+  /* 老版本语法: Firefox (buggy) */
+  display: -ms-flexbox;
+  /* 混合版本语法: IE 10 */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  /* 新版本语法: Opera 12.1, Firefox 22+ */
+}
+
+%display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+// 弹性盒模型垂直水平居中
+$center: center;
+
+%text-center {
+  align-items: center;
+  justify-content: center;
+}
+// :export {
+//   colorMenuText: $color-menu-text;
+//   colorMenuActiveText: $color-menu-active-text;
+//   colorMenuBack: $color-menu-back;
+//   colorMenuHover: $color-menu-hover;
+//   sideBarWidth: $sideBarWidth;
+// }

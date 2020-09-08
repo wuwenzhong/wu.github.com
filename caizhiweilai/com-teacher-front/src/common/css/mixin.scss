@@ -1,0 +1,37 @@
+@mixin sidebar-text-decouration {
+  position: relative;
+  display: inline-block;
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 13px;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(247deg,rgba(50,113,255,1) 0%,rgba(54,235,255,1) 100%);
+  }
+}
+@mixin maskLayer($num:.4,$z:100){
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:rgba(0,0,0,$num);
+  z-index:$z;
+}
+@mixin setBoxShadow($x:0,$y:0,$w:0,$h:0,$r:rgba(0,0,0,.2)){
+  box-shadow: $x $y $w $h $r;
+  -webkit-box-shadow: $x $y $w $h $r;
+  -moz-box-shadow: $x $y $w $h $r;
+  -o-box-shadow: $x $y $w $h $r;
+}
+@mixin setInput($cr:#C5C5C5) {
+  input::-webkit-input-placeholder {color: $cr;}
+  input:-moz-placeholder {color: $cr;}
+  input::-moz-placeholder {color: $cr;}
+  input:-ms-input-placeholder {color: $cr;}
+}
